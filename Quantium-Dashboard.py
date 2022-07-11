@@ -7,7 +7,7 @@ import plotly.express as px
 
 df = pd.read_csv('S:\code\Quantium_proj\quantium-starter-repo-main\Pink Morsel.csv')
 print(df.head(10))
-
+df=df[(df['Date']>'2021-01-15')] #filtering date to 15th january 2021
 
 
 
